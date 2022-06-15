@@ -22,20 +22,23 @@ body {
     /* margin-top: 40px;
     margin-left: 20px;
     margin-right: 20px; */
-    margin: 40px 20px 0;
+    margin: 40px 20px 20px;
     font-size: 0;
   }
   
   li {
     display: inline;
+    margin-right: 25px;
+    margin-left: 25px;
   }
   
   .header > * {
     display: inline-block;
     font-size: 16px;
     line-height: 45px;
-    height: 100%;
+    height: 45px;
     vertical-align: middle;
+    font-family: sans-serif;
   }
   
   .logo {
@@ -51,7 +54,6 @@ body {
     text-align: left;
     color: #025157;
     font-weight: 500;
-    font-style: sant-serif;
   }
   
   .actions {
@@ -59,10 +61,25 @@ body {
     text-align: left;
     font-size: 14px;
     font-weight: 600;
+    margin-right: 10px;
+    margin-left: 10px;
   }
 
-  .main {
+  .actions a{
+    color: #67b54b;  
+  }
+
+  .actions button{
+    color: #ffffff;
+    background-color: #67b54b; 
+    border: 0;
+    border-radius: 5px;
+    margin: 12px 14px; 
+    /* arriba derecha baajo izquierda */
+}
+
+.main {
     margin-top: 140px;
     text-align: center;
-  }
+}
  
